@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "productName": "Pen",
+      "price": 100,
+      "quantity": 690
+    },
+    {
+      "id": 3,
+      "productName": "phone",
+      "price": 5000,
+      "quantity": 30
+    },
+    {
+      "id": 4,
+      "productName": "Book",
+      "price": 120,
+      "quantity": 66
+    },
+    {
+      "id": 5,
+      "productName": "Pen",
+      "price": 120,
+      "quantity": 66
+    },
+    {
+      "id": 6,
+      "productName": "Windows",
+      "price": 1210,
+      "quantity": 626
+    },
+    {
+      "id": 7,
+      "productName": "Linux",
+      "price": 100,
+      "quantity": 20
+    },
+    {
+      "id": 8,
+      "productName": "WEB",
+      "price": 120,
+      "quantity": 660
+    },
+    {
+      "id": 9,
+      "productName": "Mouse",
+      "price": 160,
+      "quantity": 60
+    }
+
+  ]
+}

@@ -1,0 +1,68 @@
+<div class="p-5">
+  <div class="container">
+    <form [formGroup]="ProductForm" (submit)="formHandler($event)">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Product Name</label>
+        <input type="text"  class="form-control" id="exampleInputEmail1" formControlName="productName" aria-describedby="emailHelp"placeholder="Enter Product Name"/>
+        <ng-container *ngIf="ProductName.touched">
+          <div *ngIf="ProductName.hasError('Required')" class="form-text text-danger" id="emailHelp">Product Name Is Required</div>
+          <div *ngIf="ProductName.hasError('minlength')"
+          id="emailHelp"
+          class="form-text text-danger"
+        >
+          Product Name Length must be >= 3
+        </div>
+        </ng-container>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label"> Price</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputPassword1"
+          formControlName ="price"
+          placeholder="Enter Product Price"
+        />
+        <ng-container *ngIf="ProductPrice.touched">
+          <div
+            *ngIf="ProductPrice.hasError('required')"
+            id="emailHelp"
+            class="form-text text-danger"
+          >
+            Price is Required
+          </div>
+
+        </ng-container>
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label"> Quantity</label>
+        <input
+          type="text"
+          class="form-control"
+          id="exampleInputPassword1"
+          formControlName="quantity"
+          placeholder="Enter Product Quantity"
+        />
+        <ng-container *ngIf="ProductQuantity.touched">
+          <div
+            *ngIf="ProductQuantity.hasError('required')"
+            id="emailHelp"
+            class="form-text text-danger"
+          >
+            Quantity is required
+          </div>
+          <div
+            *ngIf="ProductQuantity.hasError('min')"
+            id="emailHelp"
+            class="form-text text-danger"
+          >
+            Min Value is 10
+          </div>
+        </ng-container>
+      </div>
+
+      <button type="submit" class="btn btn-dark">
+        {{productId ==0 ? "Add Product":"Edit Product"}}</button>
+    </form>
+  </div>
+</div>
