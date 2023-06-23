@@ -10,8 +10,7 @@ The Shopping App has the following features:
 - Add a new product
 - Edit an existing product
 - Delete a product
-- Search for a product by name
-- Sort products by name or price
+- view details of product
 
 ## Getting Started
 
