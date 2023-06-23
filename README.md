@@ -45,3 +45,14 @@ If you would like to contribute to the Shopping App, please follow these steps:
 6. Wait for the maintainers to review your changes and merge them if they are accepted.
 
 ## Screenshot
+1. home Page
+![Screenshot](https://github.com/Dinaabdalla2018/Shopping_TaskITI/blob/main/ScreenShot/Screenshot%202023-06-23%20182943.png
+)
+![Screenshot](https://github.com/Dinaabdalla2018/Shopping_TaskITI/blob/main/ScreenShot/Screenshot%202023-06-23%20182958.png))
+2.  Details Product
+![Screenshot](https://github.com/Dinaabdalla2018/Shopping_TaskITI/blob/main/ScreenShot/Screenshot%202023-06-23%20183022.png
+)
+3. Edit product
+![Screenshot](https://github.com/Dinaabdalla2018/Shopping_TaskITI/blob/main/ScreenShot/Screenshot%202023-06-23%20183049.png)
+4. Add Product
+![Screenshot](https://github.com/Dinaabdalla2018/Shopping_TaskITI/blob/main/ScreenShot/Screenshot%202023-06-23%20183126.png)
