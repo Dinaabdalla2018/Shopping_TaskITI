@@ -1,5 +1,3 @@
-Here's an example README file for a GitHub project called "Shopping App", which allows users to add, edit, and delete products from a server using JSON:
-
 # Shopping App
 
 This is a simple web application that allows users to manage a list of products using a server that stores the data in JSON format. The application is built using Angular and Bootstrap, and communicates with the server using HTTP requests.
